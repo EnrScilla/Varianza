@@ -25,7 +25,7 @@ int main() {
 
 void riempiArray(float *a,int n){
     int i;
-    printf("Inserisci i %d elementi dell'Array:\n");
+    printf("Inserisci i %d elementi dell'Array:\n",n);
     for(i=0;i<n;i++)
        scanf("%f",&a[i]);
 
